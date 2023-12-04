@@ -1,0 +1,98 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 17px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+.header{
+    width: 100%;
+    color: #ffffff;
+    padding: 20px;
+    background: #ff2881;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+    transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-dascriptoin, .banner-title{
+    text-align: center;
+    color: rgb(243, 165, 202);
+}
+
+.banner-title{
+    font-size: 60px;
+}
+
+.baner-saction{
+    padding: 100px 0;
+    background: url(img/beach.png.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*cards*/
+
+.card-section{
+    padding: 50px 0;
+}
+
+.card-title, .card-discription{
+    color: #530a29;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    padding-top: 25px;
+    background: #fff5f9;
+    box-shadow: 0px 2px 7px 0px #ffeef3; 
+    text-align: center;
+}
+.card-link{
+   text-decoration: none;
+   color: aliceblue; 
+}
+
+.card-button{
+    text-align: center;
+    background: #ff69a8;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: inline-flex;
+    width: 25%;
+    margin: 0px 80px;
+}
+
+.footer{
+    background: url(img/bitsh.png);
+    background-size: cover;
+    padding: 100px 0;
+}
+.copyright{
+    color: #ffeef3;
+}
